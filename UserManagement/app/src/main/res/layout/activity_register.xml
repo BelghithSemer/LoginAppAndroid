@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="24sp"
+        android:textColor="#6A1B9A"
+        android:layout_gravity="center" />
+
+    <!-- Username Field -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:strokeColor="#6A1B9A"
+        app:strokeWidth="2dp"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#6A1B9A"
+            android:inputType="textPersonName" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Email Field -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:strokeColor="#6A1B9A"
+        app:strokeWidth="2dp"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#6A1B9A"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Password Field -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:strokeColor="#6A1B9A"
+        app:strokeWidth="2dp"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#6A1B9A"
+            android:inputType="textPassword" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Confirm Password Field -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:strokeColor="#6A1B9A"
+        app:strokeWidth="2dp"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#6A1B9A"
+            android:inputType="textPassword" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Address Field -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:strokeColor="#6A1B9A"
+        app:strokeWidth="2dp"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#6A1B9A" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Phone Field -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:strokeColor="#6A1B9A"
+        app:strokeWidth="2dp"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#6A1B9A"
+            android:inputType="phone" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:background="#6A1B9A"
+        android:layout_marginTop="16dp" />
+
+    <!-- Login Text -->
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login here."
+        android:textColor="#6A1B9A"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true" />
+</LinearLayout>

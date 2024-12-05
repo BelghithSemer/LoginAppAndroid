@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "533806311330",
+    "project_id": "pidev-vp7mzr",
+    "storage_bucket": "pidev-vp7mzr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533806311330:android:bb6e8b15bb9c86750574fb",
+        "android_client_info": {
+          "package_name": "com.esprit.usermanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533806311330-2it8qa77lrma7sojf3s4iek0o7ae1sdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdZ7IkIPB7PM43UEMOtKFSZJhoT4jKIZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533806311330-2it8qa77lrma7sojf3s4iek0o7ae1sdh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "533806311330-smscn7tskhhs5li9bmsu1tbvehdboh9l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.pidev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533806311330:android:e9e4da26a9226fc10574fb",
+        "android_client_info": {
+          "package_name": "com.mycompany.pidev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533806311330-q4c8rjjvfn5019edbckogbta670kv9li.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.pidev",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "533806311330-2it8qa77lrma7sojf3s4iek0o7ae1sdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdZ7IkIPB7PM43UEMOtKFSZJhoT4jKIZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533806311330-2it8qa77lrma7sojf3s4iek0o7ae1sdh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "533806311330-smscn7tskhhs5li9bmsu1tbvehdboh9l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.pidev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
